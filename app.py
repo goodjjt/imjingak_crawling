@@ -14,10 +14,10 @@ async def bot_send(msg):
     await bot.sendMessage(chat_id=telegram_id, text=msg)
 
 url_array = [
-            'https://imjingakcamping.co.kr/module/reserv21/res_01_calendar.php?year=2023&month=03&day=03'
+            'https://imjingakcamping.co.kr/module/reserv21/res_01_calendar.php?year=2023&month=03&day=25'
             ]
 data_array = [
-            '임진각평화누리캠핑장 https://imjingakcamping.co.kr/resv/res_01.html?checkdate=2023-03-03'
+            '임진각평화누리캠핑장 https://imjingakcamping.co.kr/resv/res_01.html?checkdate=2023-03-25'
              ]
 
 jsonData = None
